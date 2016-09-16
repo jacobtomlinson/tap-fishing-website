@@ -1,0 +1,10 @@
+# Site settings
+title: Fishing Frenzy
+email: jacob@tom.linson.uk
+description: > # this means to ignore newlines until "baseurl:"
+  Fishing Frenzy is an arcade fishing game. Catch as many fish as you can before the time runs out. The more you catch the longer you have. But watch out for those pesky Eels who will stop you in your tracks.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "fishingfrenzy.jacobtomlinson.co.uk" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
