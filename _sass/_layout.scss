@@ -5,8 +5,14 @@
 /* Links */
 a,
 a:focus,
-a:hover {
+a:hover,
+a:visited {
   color: #fff;
+  text-decoration: underline;
+}
+a:focus,
+a:hover {
+  text-decoration: none;
 }
 
 /* Custom default button */
@@ -99,8 +105,12 @@ body {
 .home {
 
   h1 {
-    font-size: 128px;
-    margin-bottom: 64px;
+    font-size: 56px;
+    margin-bottom: 24px;
+  }
+
+  #app-store {
+    margin-top: 64px;
   }
 }
 
@@ -110,6 +120,13 @@ body {
   }
   .masthead-nav {
     float: right;
+  }
+  .home {
+
+    h1 {
+      font-size: 96px;
+      margin-bottom: 24px;
+    }
   }
 }
 
